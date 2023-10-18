@@ -8,8 +8,8 @@ import { Signin } from '../pages/Signin'
 export function AuthRoutes() {
   return(
     <Routes>
-      <Route path='/' element={<Signin/>} />
-      <Route path='/register' element={<SignUp/>} />
+      <Route path='/ReactNote' element={<Signin/>} />
+      <Route path='/ReactNote/register' element={<SignUp/>} />
     </Routes>
   )
 }
